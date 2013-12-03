@@ -1,12 +1,4 @@
-ul.accordian {
-	padding: 0;
-	
-	width: 20em;
-}
-li {
-	list-style: none;
-	
-}
+
 label {
 	cursor: pointer;
 }
