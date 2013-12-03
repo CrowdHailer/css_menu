@@ -8,29 +8,16 @@
 <body>
 	<div id="accordian-area" class="accordian">
 		<script id="status-accordian" type="text/template">
-			{{#lines}}
+			{{#items}}
 			<label>
 			<input type="radio" name="status">
-			<header>{{name}}</header>
-			<section>{{message}}</section>
+			<header>{{title}}</header>
+			<section>{{content}}</section>
 			</label>
-			{{/lines}}
+			{{/items}}
 		</script>
 	</div>
 	<script src="mustache.js"></script>
-	<script>
-		var view = {
-			lines:[
-				{name: "Bakerloo", message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, ea, optio eveniet tempore odit maiores delectus doloremque provident magnam facere eligendi minus dignissimos a quae id ut distinctio voluptates repudiandae."},
-				{name: "Central", message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, ea, optio eveniet tempore odit maiores delectus doloremque provident magnam facere eligendi minus dignissimos a quae id ut distinctio voluptates repudiandae."},
-				{name: "Circle", message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, ea, optio eveniet tempore odit maiores delectus doloremque provident magnam facere eligendi minus dignissimos a quae id ut distinctio voluptates repudiandae."},
-				{name: "District", message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, ea, optio eveniet tempore odit maiores delectus doloremque provident magnam facere eligendi minus dignissimos a quae id ut distinctio voluptates repudiandae."},
-				{name: "Hammersmith and City", message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, ea, optio eveniet tempore odit maiores delectus doloremque provident magnam facere eligendi minus dignissimos a quae id ut distinctio voluptates repudiandae."}
-			]
-		};
-		var template = document.getElementById('status-accordian').innerHTML;
-		var output = Mustache.render(template,view);
-		document.getElementById('accordian-area').innerHTML = output;
-	</script>
+	<script src="app.js"></script>
 </body>
 </html>
