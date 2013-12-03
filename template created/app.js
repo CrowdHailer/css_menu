@@ -16,6 +16,3 @@ var myApp = {
 
 };
 myApp.init(views);
-/*var template = document.getElementById('status-accordian').innerHTML;
-		var output = Mustache.render(template,view);
-		document.getElementById('accordian-area').innerHTML = output;*/
