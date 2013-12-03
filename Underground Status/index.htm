@@ -10,19 +10,14 @@
 		<script id="status-accordian" type="text/template">
 			{{#items}}
 			<label>
-			<input type="radio" name="status" style="background-image: url(line_sprites.svg#central)">
+			<input type="radio" name="status">
 			<header>{{title}}</header>
-			<img src="line_sprites.svg#circle" alt="">
-			<section>{{content}}<img src="line_sprites.svg#circle" alt=""></section>
+			<img src="line_sprites.svg#{{pathclass}}" alt="">
+			<section>{{content}}
+			</section>
 			</label>
 			{{/items}}
 		</script>
-	</div>
-	<div id="ooh">
-		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, deleniti distinctio eaque quod eos numquam sunt. Architecto, dolores, laboriosam, eaque eveniet tempore et quis autem velit officiis maiores dolor perspiciatis.</div>
-		<div>Numquam, libero explicabo dicta et delectus quae impedit est illum alias temporibus asperiores qui velit voluptates maiores doloremque mollitia nobis dolore expedita non voluptatem consequuntur saepe cupiditate architecto corrupti esse!</div>
-		<div>Magni, ab, itaque, nam, vel doloribus aliquid quaerat excepturi laboriosam velit et ipsa explicabo eos optio voluptatem recusandae! Doloribus consequatur error corrupti velit consequuntur enim nobis voluptatibus quas ea debitis!</div>
-		<div>Voluptatem, molestiae, voluptates similique tempora porro a cupiditate quibusdam nulla! Tenetur, placeat natus culpa asperiores a hic tempora fugiat. Magni velit temporibus alias magnam ea voluptate sed voluptatum facere accusantium?</div>
 	</div>
 	<script src="mustache.js"></script>
 	<script src="app.js"></script>
