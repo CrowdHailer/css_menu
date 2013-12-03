@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 150 4">	<defs>		<style><![CDATA[			g {				display: none;			}
+			#bakerloo {
+				display: inline;
+			}			g:target {				display: inline;			}		]]></style>	</defs>
+	<g id="bakerloo" >
+		<path d="M5,2,145,2" stroke="#894e24" stroke-linecap="round" stroke-width="3.0999999" fill="none"/>
+	</g>
+	<g id="central" >
+		<path  d="M5,2,145,2" stroke="#dc241f" stroke-linecap="round" stroke-width="3.0999999" fill="none"/>
+	</g>
+	<g id="circle" >
+		<path  d="M5,2,145,2" stroke="#ffce00" stroke-linecap="round" stroke-width="3.0999999" fill="none"/>
+	</g>
+	<g id="district" >
+		<path  d="M5,2,145,2" stroke="#007229" stroke-linecap="round" stroke-width="3.0999999" fill="none"/>
+	</g>
+	<g id="hammersmith" >
+		<path  d="M5,2,145,2" stroke="#d799af" stroke-linecap="round" stroke-width="3.0999999" fill="none"/>
+	</g>
+</svg>
