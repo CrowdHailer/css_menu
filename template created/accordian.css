@@ -1,0 +1,19 @@
+
+label {
+	cursor: pointer;
+}
+input {
+	display: none;
+}
+section {
+	max-height: 0px;
+	overflow: hidden;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.accordian label input:checked ~ section {
+	max-height: 100px;
+}
