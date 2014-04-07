@@ -1,0 +1,16 @@
+body {
+	text-align: center;
+}
+#holding_pen {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+div.load_bar {
+	width: 16em;
+	height: 2em;
+	background-color: red;
+	margin: 0.5em 1em;
+	border-radius: 0.2em;
+	display: none;
+}
